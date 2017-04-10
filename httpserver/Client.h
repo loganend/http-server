@@ -8,7 +8,44 @@
 
 
 class Client {
+public:
+    Client(){}
+    ~Client(){
+        if(output_buffer != NULL){
+            evbuffer_free(output_buffer);
+        }
+    }
 
+    int getFd() const {
+        return fd;
+    }
+    void setFd(int fd) {
+        Client::fd = fd;
+    }
+    void setEvbase(event_base *evbase) {
+        Client::evbase = evbase;
+    }
+    void setBuf_ev(bufferevent *buf_ev) {
+        Client::buf_ev = buf_ev;
+    }
+    void setOutput_buffer(evbuffer *output_buffer) {
+        Client::output_buffer = output_buffer;
+    }
+    event_base *getEvbase() const {
+        return evbase;
+    }
+    bufferevent *getBuf_ev() const {
+        return buf_ev;
+    }
+    evbuffer *getOutput_buffer() const {
+        return output_buffer;
+    }
+
+private:
+    int fd;
+    struct event_base *evbase;
+    struct bufferevent *buf_ev;
+    struct evbuffer *output_buffer;
 };
 
 
