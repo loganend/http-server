@@ -1,6 +1,5 @@
-#include <getopt.h>
 #include "httpserver/HttpServer.h"
-#include <iostream>
+
 
 using namespace http::server;
 
@@ -32,9 +31,13 @@ int main(int argc, char **argv) {
                 if (rootDir[strlen(rootDir) - 1] == '/') {
                     rootDir[strlen(rootDir) - 1] = '\0';
                 }
+                break;
+            default:
+                break;
         }
     }
 
+    std::cout << "hello" << std::endl;
     HttpServer *httpServer = new HttpServer();
     httpServer->startServer(port, workers, rootDir);
     delete httpServer;

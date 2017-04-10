@@ -1,0 +1,12 @@
+*~
+*.[oa]
+.DS_Store
+.idea/*
+logs/*
+*.jpg
+*.html
+*httptest/*
+*.ico
+server
+HttpServer
+
