@@ -9,24 +9,34 @@
 #include "Client.h"
 #include "WorkerQueue.h"
 
-class HttpServer {
-public:
-    HttpServer();
-    virtual ~HttpServer();
-    void startServer(int port, int workers, char *rootDir);
+namespace http {
+    namespace server {
+        class HttpServer {
+        public:
+            HttpServer();
 
-private:
-    static void connectionCallback(struct evconnlistener *lisnter, evutil_socket_t fd, struct sockaddr *address,
-                                   int socklen, void *ctx);
-    static void errorCallback(struct evconnlistener *listener, void *ctx);
-    static void readCallback(struct bufferevent *bev, void *ctx);
-    static void writeCallback(bufferevent *bev, void *ctx);
-    static void eventCallback(struct bufferevent *bev, short events, void *ctx);
-    static void serverJobFunction(job_t *job);
+            virtual ~HttpServer();
 
-    static workerqueue_t workerqueue;
-    static char *rootDir;
-};
+            void startServer(int port, int workers, char *rootDir);
 
+        private:
+            static void connectionCallback(struct evconnlistener *lisnter, evutil_socket_t fd, struct sockaddr *address,
+                                           int socklen, void *ctx);
+
+            static void errorCallback(struct evconnlistener *listener, void *ctx);
+
+            static void readCallback(struct bufferevent *bev, void *ctx);
+
+            static void writeCallback(bufferevent *bev, void *ctx);
+
+            static void eventCallback(struct bufferevent *bev, short events, void *ctx);
+
+            static void serverJobFunction(job_t *job);
+
+            static workerqueue_t workerqueue;
+            static char *rootDir_;
+        };
+    }
+}
 
 #endif //HTTP_SERVER_HTTPSERVER_H

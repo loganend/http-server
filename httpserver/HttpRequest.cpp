@@ -1,54 +1,55 @@
-//
-// Created by Serqey Cheremisin on 10/04/2017.
-//
 
 #include "HttpRequest.h"
 
-std::string HttpRequest::getMethod() {
-    return method_;
-}
 
-std::string HttpRequest::getUri() {
-    return uri_;
-}
+namespace http {
+    namespace server {
+        std::string HttpRequest::getMethod() {
+            return method_;
+        }
 
-std::vector<PairNameValue>& HttpRequest::getHeaders(){
-    return headers_;
-}
+        std::string HttpRequest::getUri() {
+            return uri_;
+        }
 
-void HttpRequest::addHeader(PairNameValue header) {
-    headers_.push_back(header);
-}
+        std::vector<PairNameValue> &HttpRequest::getHeaders() {
+            return headers_;
+        }
 
-int HttpRequest::getHttpVersionMajor() const {
-    return httpVersionMajor_;
-}
+        void HttpRequest::addHeader(PairNameValue header) {
+            headers_.push_back(header);
+        }
 
-int HttpRequest::getHttpVersionMinor() const {
-    return httpVersionMinor_;
-}
+        int HttpRequest::getHttpVersionMajor() const {
+            return httpVersionMajor_;
+        }
 
-void HttpRequest::setHttpVersionMajor(int httpVersionMajor) {
-    httpVersionMajor_ = httpVersionMajor;
-}
+        int HttpRequest::getHttpVersionMinor() const {
+            return httpVersionMinor_;
+        }
 
-void HttpRequest::setHttpVersionMinor(int httpVersionMinor) {
-    httpVersionMinor_ = httpVersionMinor;
-}
+        void HttpRequest::setHttpVersionMajor(int httpVersionMajor) {
+            httpVersionMajor_ = httpVersionMajor;
+        }
 
-void HttpRequest::pushBackMethod(char ch) {
-    method_.push_back(ch);
-}
+        void HttpRequest::setHttpVersionMinor(int httpVersionMinor) {
+            httpVersionMinor_ = httpVersionMinor;
+        }
 
-std::vector<PairNameValue> &HttpRequest::getQueryParameters() {
-    return queryParameters_;
-}
+        void HttpRequest::pushBackMethod(char ch) {
+            method_.push_back(ch);
+        }
 
-void HttpRequest::addQueryParameter(PairNameValue parameter) {
-    queryParameters_.push_back(parameter);
-}
+        std::vector<PairNameValue> &HttpRequest::getQueryParameters() {
+            return queryParameters_;
+        }
 
-void HttpRequest::pushBackUri(char ch) {
-    uri_.push_back(ch);
-}
+        void HttpRequest::addQueryParameter(PairNameValue parameter) {
+            queryParameters_.push_back(parameter);
+        }
 
+        void HttpRequest::pushBackUri(char ch) {
+            uri_.push_back(ch);
+        }
+    }
+}

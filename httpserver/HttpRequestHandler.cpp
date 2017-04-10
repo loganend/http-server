@@ -1,13 +1,28 @@
 #include "HttpRequestHandler.h"
-//#include "DateTimeHelper.h"
+#include "DateTimeHelper.h"
+#include "MimeType.h"
 
 namespace http {
     namespace server {
+
+        template <typename T>
+        std::string to_string(T value)
+        {
+            //create an output string stream
+            std::ostringstream os ;
+
+            //throw the value into the string stream
+            os << value ;
+
+            //convert the string stream into a string and return
+            return os.str() ;
+        }
+
         HttpRequestHandler::HttpRequestHandler(std::string docRoot)
                 : docRoot_(docRoot)
         { }
 
-        void HttpRequestHandler::handleRequest(HttpRequest *request,
+        void http::server::HttpRequestHandler::handleRequest(HttpRequest *request,
                                                              HttpResponse *response) {
             if (!isAllowMethod(request->getMethod())) {
                 *response = HttpResponse::stockReply(HttpResponse::METHOD_NOT_ALLOWED);
@@ -49,7 +64,7 @@ namespace http {
                 return;
             }
 
-            std::ifstream fin(fullPath, std::ios_base::in | std::ios_base::binary);
+            std::ifstream fin(fullPath.c_str(), std::ios_base::in | std::ios_base::binary);
 
             if (isMethodWithContent(request->getMethod())) {
                 writeContentToRequest(fin, response);
@@ -57,7 +72,7 @@ namespace http {
             response->setStatus(HttpResponse::OK);
             response->addHeader(PairNameValue("Date", DateTimeHelper::getDateHeader()));
             response->addHeader(PairNameValue("Server", "libevent|C++"));
-            response->addHeader(PairNameValue("Content-Length", std::to_string(getFileLength(fin))));
+            response->addHeader(PairNameValue("Content-Length", to_string(getFileLength(fin))));
             response->addHeader(PairNameValue("Content-Type", mime_types::extensionToType(getFileExtension(resoursePath))));
             response->addHeader(PairNameValue("Connection", "close"));
             response->addHeader(PairNameValue("Allow", "GET | HEAD"));

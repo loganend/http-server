@@ -40,6 +40,7 @@ public:
     evbuffer *getOutput_buffer() const {
         return output_buffer;
     }
+    int getFd() { return fd; }
 
 private:
     int fd;

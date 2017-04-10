@@ -1,13 +1,9 @@
-//
-// Created by Serqey Cheremisin on 10/04/2017.
-//
-
 #ifndef HTTP_SERVER_HTTPREQUESTHANDLER_H
 #define HTTP_SERVER_HTTPREQUESTHANDLER_H
 
 #include "HttpRequest.h"
 #include "HttpResponse.h"
-//#include "MimeType.h"
+
 #include <fstream>
 #include <unistd.h>
 
