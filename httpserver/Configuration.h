@@ -12,7 +12,7 @@ public:
     static char *ROOT_DIR;
 };
 
-char *Configuration::ROOT_DIR = (char *) "./document_root/";
+char *Configuration::ROOT_DIR = (char *) "./document_root";
 
 
 #endif //HTTP_SERVER_CONFIGURATION_H

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server
+# Install script for directory: /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

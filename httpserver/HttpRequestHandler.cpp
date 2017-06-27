@@ -37,7 +37,8 @@ namespace http {
 
                 return;
             }
-            if (resoursePath.empty() || resoursePath[0] != '/' || resoursePath.find("..") != std::string::npos) {
+//            || resoursePath.find("..") != std::string::npos
+            if (resoursePath.empty() || resoursePath[0] != '/' ) {
                 *response = HttpResponse::stockReply(HttpResponse::BAD_REQUEST);
 
                 return;

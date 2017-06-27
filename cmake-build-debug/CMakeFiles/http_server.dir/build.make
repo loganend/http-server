@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server
+CMAKE_SOURCE_DIR = /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/http_server.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/http_server.dir/flags.make
 
 CMakeFiles/http_server.dir/main.cpp.o: CMakeFiles/http_server.dir/flags.make
 CMakeFiles/http_server.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/http_server.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/main.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/http_server.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/main.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/main.cpp
 
 CMakeFiles/http_server.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_server.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/main.cpp > CMakeFiles/http_server.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/main.cpp > CMakeFiles/http_server.dir/main.cpp.i
 
 CMakeFiles/http_server.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_server.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/main.cpp -o CMakeFiles/http_server.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/main.cpp -o CMakeFiles/http_server.dir/main.cpp.s
 
 CMakeFiles/http_server.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/http_server.dir/main.cpp.o.provides.build: CMakeFiles/http_server.dir
 
 CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.o: CMakeFiles/http_server.dir/flags.make
 CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.o: ../httpserver/HttpServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpServer.cpp
 
 CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpServer.cpp > CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpServer.cpp > CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.i
 
 CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpServer.cpp -o CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpServer.cpp -o CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.s
 
 CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/http_server.dir/httpserver/HttpServer.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.o: CMakeFiles/http_server.dir/flags.make
 CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.o: ../httpserver/WorkerQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/WorkerQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/WorkerQueue.cpp
 
 CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/WorkerQueue.cpp > CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/WorkerQueue.cpp > CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.i
 
 CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/WorkerQueue.cpp -o CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/WorkerQueue.cpp -o CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.s
 
 CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/http_server.dir/httpserver/Client.cpp.o: CMakeFiles/http_server.dir/flags.make
 CMakeFiles/http_server.dir/httpserver/Client.cpp.o: ../httpserver/Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/http_server.dir/httpserver/Client.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/Client.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/http_server.dir/httpserver/Client.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/Client.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/Client.cpp
 
 CMakeFiles/http_server.dir/httpserver/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_server.dir/httpserver/Client.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/Client.cpp > CMakeFiles/http_server.dir/httpserver/Client.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/Client.cpp > CMakeFiles/http_server.dir/httpserver/Client.cpp.i
 
 CMakeFiles/http_server.dir/httpserver/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_server.dir/httpserver/Client.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/Client.cpp -o CMakeFiles/http_server.dir/httpserver/Client.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/Client.cpp -o CMakeFiles/http_server.dir/httpserver/Client.cpp.s
 
 CMakeFiles/http_server.dir/httpserver/Client.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/http_server.dir/httpserver/Client.cpp.o.provides.build: CMakeFiles/ht
 
 CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.o: CMakeFiles/http_server.dir/flags.make
 CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.o: ../httpserver/HttpRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpRequest.cpp
 
 CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpRequest.cpp > CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpRequest.cpp > CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.i
 
 CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpRequest.cpp -o CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpRequest.cpp -o CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.s
 
 CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/http_server.dir/httpserver/HttpRequest.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.o: CMakeFiles/http_server.dir/flags.make
 CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.o: ../httpserver/HttpRequestHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpRequestHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpRequestHandler.cpp
 
 CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpRequestHandler.cpp > CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpRequestHandler.cpp > CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.i
 
 CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpRequestHandler.cpp -o CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpRequestHandler.cpp -o CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.s
 
 CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/http_server.dir/httpserver/HttpRequestHandler.cpp.o.provides.build: C
 
 CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.o: CMakeFiles/http_server.dir/flags.make
 CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.o: ../httpserver/HttpRequestParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpRequestParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpRequestParser.cpp
 
 CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpRequestParser.cpp > CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpRequestParser.cpp > CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.i
 
 CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpRequestParser.cpp -o CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpRequestParser.cpp -o CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.s
 
 CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/http_server.dir/httpserver/HttpRequestParser.cpp.o.provides.build: CM
 
 CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.o: CMakeFiles/http_server.dir/flags.make
 CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.o: ../httpserver/HttpResponse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpResponse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpResponse.cpp
 
 CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpResponse.cpp > CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpResponse.cpp > CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.i
 
 CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/HttpResponse.cpp -o CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/HttpResponse.cpp -o CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.s
 
 CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/http_server.dir/httpserver/MimeType.cpp.o: CMakeFiles/http_server.dir/flags.make
 CMakeFiles/http_server.dir/httpserver/MimeType.cpp.o: ../httpserver/MimeType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/http_server.dir/httpserver/MimeType.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/MimeType.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/MimeType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/http_server.dir/httpserver/MimeType.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http_server.dir/httpserver/MimeType.cpp.o -c /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/MimeType.cpp
 
 CMakeFiles/http_server.dir/httpserver/MimeType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_server.dir/httpserver/MimeType.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/MimeType.cpp > CMakeFiles/http_server.dir/httpserver/MimeType.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/MimeType.cpp > CMakeFiles/http_server.dir/httpserver/MimeType.cpp.i
 
 CMakeFiles/http_server.dir/httpserver/MimeType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_server.dir/httpserver/MimeType.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/httpserver/MimeType.cpp -o CMakeFiles/http_server.dir/httpserver/MimeType.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/httpserver/MimeType.cpp -o CMakeFiles/http_server.dir/httpserver/MimeType.cpp.s
 
 CMakeFiles/http_server.dir/httpserver/MimeType.cpp.o.requires:
 
@@ -299,7 +299,7 @@ http_server: CMakeFiles/http_server.dir/httpserver/HttpResponse.cpp.o
 http_server: CMakeFiles/http_server.dir/httpserver/MimeType.cpp.o
 http_server: CMakeFiles/http_server.dir/build.make
 http_server: CMakeFiles/http_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable http_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable http_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/http_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -324,6 +324,6 @@ CMakeFiles/http_server.dir/clean:
 .PHONY : CMakeFiles/http_server.dir/clean
 
 CMakeFiles/http_server.dir/depend:
-	cd /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/http-server/cmake-build-debug/CMakeFiles/http_server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug /Users/serqeycheremisin/CheremisinSergey/Tech-mail/semester3/highload/httpserver/good_server/cmake-build-debug/CMakeFiles/http_server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/http_server.dir/depend
 

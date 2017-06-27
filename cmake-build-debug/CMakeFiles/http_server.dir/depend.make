@@ -44,7 +44,11 @@ CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.o: ../httpserver/WorkerQue
 CMakeFiles/http_server.dir/httpserver/WorkerQueue.cpp.o: ../httpserver/WorkerQueue.h
 
 CMakeFiles/http_server.dir/main.cpp.o: ../httpserver/Client.h
+CMakeFiles/http_server.dir/main.cpp.o: ../httpserver/HttpRequest.h
+CMakeFiles/http_server.dir/main.cpp.o: ../httpserver/HttpRequestHandler.h
+CMakeFiles/http_server.dir/main.cpp.o: ../httpserver/HttpResponse.h
 CMakeFiles/http_server.dir/main.cpp.o: ../httpserver/HttpServer.h
+CMakeFiles/http_server.dir/main.cpp.o: ../httpserver/PairNameValue.h
 CMakeFiles/http_server.dir/main.cpp.o: ../httpserver/WorkerQueue.h
 CMakeFiles/http_server.dir/main.cpp.o: ../main.cpp
 
